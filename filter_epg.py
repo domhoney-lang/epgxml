@@ -3,7 +3,6 @@ import io
 import requests
 import xml.etree.ElementTree as ET
 
-# Your exact list of IDs
 TARGET_IDS = {
     'SkySp.Tennis.HD.uk', 'SkySp.F1.HD.uk', 'SkySp.Fball.uk', 'SkySp.Mix.HD.uk',
     'SkySpCricket.HD.uk', 'SkySp.Golf.uk', 'SkySp.Golf.HD.uk', 'SkySp.PL.HD.uk',
@@ -14,32 +13,48 @@ TARGET_IDS = {
 url = "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
 
 try:
-    print("Fetching data...")
+    print(f"Downloading from {url}...")
     response = requests.get(url, timeout=60)
     response.raise_for_status()
     
     with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
-        # We use iterparse for memory efficiency
-        context = ET.iterparse(gz, events=('start', 'end'))
-        new_root = ET.Element('tv', {'generator-info-name': 'Gemini-Final-Filter'})
+        # Load the whole file to ensure we don't miss anything in the stream
+        tree = ET.parse(gz)
+        root = tree.getroot()
         
-        for event, elem in context:
-            if event == 'end':
-                # Check BOTH channels and programmes
-                if elem.tag == 'channel' and elem.get('id') in TARGET_IDS:
-                    new_root.append(elem)
-                elif elem.tag == 'programme' and elem.get('channel') in TARGET_IDS:
-                    # This captures the <title> and everything inside the programme
-                    new_root.append(elem)
-                
-                # Clear memory for elements we don't need
-                if elem.tag not in ['channel', 'programme', 'tv']:
-                    elem.clear()
+        # New root for our filtered file
+        new_root = ET.Element('tv', root.attrib)
+        
+        # 1. Pull the Channel Definitions
+        chan_count = 0
+        for channel in root.findall('channel'):
+            if channel.get('id') in TARGET_IDS:
+                new_root.append(channel)
+                chan_count += 1
+        print(f"Found {chan_count} out of {len(TARGET_IDS)} channel headers.")
 
-        # Save to file
-        tree = ET.ElementTree(new_root)
-        tree.write('epg.xml', encoding='utf-8', xml_declaration=True)
-        print("Filtering complete. File saved as epg.xml")
+        # 2. Pull the Programme Listings
+        prog_counts = {cid: 0 for cid in TARGET_IDS}
+        for programme in root.findall('programme'):
+            channel_id = programme.get('channel')
+            if channel_id in TARGET_IDS:
+                new_root.append(programme)
+                prog_counts[channel_id] = prog_counts.get(channel_id, 0) + 1
+        
+        # 3. Print a report to the logs so we can see what's happening
+        total_progs = sum(prog_counts.values())
+        print(f"Total programme listings added: {total_progs}")
+        for cid, count in prog_counts.items():
+            if count > 0:
+                print(f" - {cid}: {count} programs")
+            else:
+                print(f" - {cid}: EMPTY (No programs found!)")
+
+        # 4. Save
+        new_tree = ET.ElementTree(new_root)
+        new_tree.write('epg.xml', encoding='utf-8', xml_declaration=True)
+        print("File saved successfully.")
 
 except Exception as e:
     print(f"Error: {e}")
+    exit(1)
