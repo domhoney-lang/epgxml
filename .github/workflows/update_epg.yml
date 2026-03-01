@@ -1,28 +1,33 @@
 name: Update EPG Data
-
 on:
   schedule:
-    - cron: '0 0 * * *'  # This runs automatically every day at midnight
-  workflow_dispatch:      # This adds a "Run now" button so you can test it
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  download_and_unzip:
+  filter_epg:
     runs-on: ubuntu-latest
     permissions:
-      contents: write    # This allows the bot to save the file back to your repo
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # This command downloads, unzips, and renames the file in one go
-      - name: Fetch and Decompress
-        run: |
-          curl -L https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz | gunzip > epg.xml
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-      - name: Commit and Push changes
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Filter Script
+        run: python filter_epg.py
+
+      - name: Commit and Push
         run: |
           git config --global user.name "EPG-Bot"
           git config --global user.email "actions@github.com"
           git add epg.xml
-          git commit -m "Automated EPG Update" || exit 0
+          git commit -m "Updated filtered EPG" || exit 0
           git push
