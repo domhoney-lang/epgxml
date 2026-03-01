@@ -1,4 +1,5 @@
 name: Update EPG Data
+
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -12,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # This fetches the full history to help with syncing
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,8 +27,10 @@ jobs:
       - name: Run Filter Script
         run: python filter_epg.py
 
-      - name: Commit and Push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Automated EPG Update"
-          file_pattern: 'epg.xml'
+      - name: Commit and Force Push
+        run: |
+          git config --global user.name "EPG-Bot"
+          git config --global user.email "actions@github.com"
+          git add epg.xml
+          git commit -m "Automated EPG Update" || exit 0
+          git push origin main --force
