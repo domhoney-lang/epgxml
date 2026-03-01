@@ -3,51 +3,52 @@ import io
 import requests
 import xml.etree.ElementTree as ET
 
-# Updated IDs to match epgshare01 UK1 source exactly
-ALLOWED_CHANNELS = {
-    'BBC1.uk', 'BBC2.uk', 'ITV1.uk', 'Channel4.uk', 'Channel5.uk',
-    'SkySportsMainEvent.uk', 'SkySportsPremierLeague.uk', 'SkySportsFootball.uk',
-    'SkySportsCricket.uk', 'SkySportsGolf.uk', 'SkySportsF1.uk', 
-    'SkySportsAction.uk', 'SkySportsArena.uk', 'SkySportsNews.uk', 'SkySportsMix.uk',
-    'TNTSports1.uk', 'TNTSports2.uk', 'TNTSports3.uk', 'TNTSports4.uk', 'TNTSportsUltimate.uk'
-}
+# We will look for these words inside the channel names
+KEYWORDS = [
+    'BBC One', 'BBC 1', 'BBC Two', 'BBC 2', 'ITV1', 'ITV 1', 
+    'Channel 4', 'Channel 5', 'Sky Sports', 'TNT Sports'
+]
 
 url = "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
 
-print(f"Downloading {url}...")
+print(f"Downloading and filtering {url}...")
 try:
     response = requests.get(url, timeout=60)
     response.raise_for_status()
     
     with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
         context = ET.iterparse(gz, events=('start', 'end'))
-        new_root = ET.Element('tv', {'generator-info-name': 'Gemini-Filter'})
+        new_root = ET.Element('tv', {'generator-info-name': 'Gemini-Fuzzy-Filter'})
         
-        found_channels = set()
+        target_ids = set()
         
         for event, elem in context:
             if event == 'end':
+                # Phase 1: Identify Channels by Name
                 if elem.tag == 'channel':
-                    cid = elem.get('id')
-                    if cid in ALLOWED_CHANNELS:
+                    display_name = elem.findtext('display-name') or ""
+                    # Check if any of our keywords are in the channel name
+                    if any(key.lower() in display_name.lower() for key in KEYWORDS):
                         new_root.append(elem)
-                        found_channels.add(cid)
+                        target_ids.add(elem.get('id'))
                     else:
                         elem.clear()
                 
+                # Phase 2: Grab Programs for those identified IDs
                 elif elem.tag == 'programme':
-                    if elem.get('channel') in ALLOWED_CHANNELS:
+                    if elem.get('channel') in target_ids:
                         new_root.append(elem)
                     else:
                         elem.clear()
                 
-                # Free memory
+                # Clean up memory
                 if elem.tag not in ['channel', 'programme', 'tv']:
                     elem.clear()
 
         tree = ET.ElementTree(new_root)
         tree.write('epg.xml', encoding='utf-8', xml_declaration=True)
-        print(f"Success! Filtered {len(found_channels)} channels into epg.xml")
+        print(f"Success! Found {len(target_ids)} matching channels.")
+        print(f"Channels found: {', '.join(list(target_ids)[:10])}...")
 
 except Exception as e:
     print(f"Error: {e}")
