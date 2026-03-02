@@ -1,0 +1,43 @@
+#EXTM3U url-tvg="http://m3u4u.com/epg/j67zn6e8g3sqx743yd1w"
+#EXTINF:-1 tvg-id="SkySportsTennis.uk" tvg-name="Sky Sports Tennis HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0027M1BC.png_dark_360w_270h.png" group-title="UK TV",Sky Sports Tennis HD
+http://localhost/1
+#EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="Sky Sports F1 HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87578_dark_360w_270h.png" group-title="UK TV",Sky Sports F1 HD
+http://localhost/2
+#EXTINF:-1 tvg-id="SkySportsFootball.uk" tvg-name="Sky Sports Football HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s104327_dark_360w_270h.png" group-title="UK TV",Sky Sports Football HD
+http://localhost/3
+#EXTINF:-1 tvg-id="SkySportsMix.uk" tvg-name="Sky Sports Mix HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0027JLEC.png_dark_360w_270h.png" group-title="UK TV",Sky Sports Mix HD
+http://localhost/4
+#EXTINF:-1 tvg-id="SkySportsCricket.uk" tvg-name="Sky Sports Cricket HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51204_dark_360w_270h.png" group-title="UK TV",Sky Sports Cricket HD
+http://localhost/5
+#EXTINF:-1 tvg-id="SkySportsGolf.uk" tvg-name="Sky Sports Golf HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67695_dark_360w_270h.png" group-title="UK TV",Sky Sports Golf HD
+http://localhost/6
+#EXTINF:-1 tvg-id="SkySportsPremierLeague.uk" tvg-name="Sky Sports Premier League HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116645_dark_360w_270h.png" group-title="UK TV",Sky Sports Premier League HD
+http://localhost/7
+#EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-name="Sky Sports Main Event HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49609_dark_360w_270h.png" group-title="UK TV",Sky Sports Main Event HD
+http://localhost/8
+#EXTINF:-1 tvg-id="SkySportsPlus.uk" tvg-name="Sky Sports + HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0027JRZB.png_dark_360w_270h.png" group-title="UK TV",Sky Sports + HD
+http://localhost/9
+#EXTINF:-1 tvg-id="TNTSports1.uk" tvg-name="TNT Sports 1 HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82450_dark_360w_270h.png" group-title="UK TV",TNT Sports 1 HD
+http://localhost/10
+#EXTINF:-1 tvg-id="TNTSports2.uk" tvg-name="TNT Sports 2 HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82449_dark_360w_270h.png" group-title="UK TV",TNT Sports 2 HD
+http://localhost/11
+#EXTINF:-1 tvg-id="TNTSports3.uk" tvg-name="TNT Sports 3 HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s95772_dark_360w_270h.png" group-title="UK TV",TNT Sports 3 HD
+http://localhost/12
+#EXTINF:-1 tvg-id="TNTSports4.uk" tvg-name="TNT Sports 4 HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64572_dark_360w_270h.png" group-title="UK TV",TNT Sports 4 HD
+http://localhost/13
+#EXTINF:-1 tvg-id="BBCOneLondon.uk" tvg-name="BBC One London" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30644_dark_360w_270h.png" group-title="UK TV",BBC One London
+http://localhost/14
+#EXTINF:-1 tvg-id="BBCTwo.uk" tvg-name="BBC Two HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17154_dark_360w_270h.png" group-title="UK TV",BBC Two HD
+http://localhost/15
+#EXTINF:-1 tvg-id="ITV1(London).uk" tvg-name="ITV1 London HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50523_dark_360w_270h.png" group-title="UK TV",ITV1 London HD
+http://localhost/16
+#EXTINF:-1 tvg-id="ITV2.uk" tvg-name="ITV2 HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s20630_dark_360w_270h.png" group-title="UK TV",ITV2 HD
+http://localhost/17
+#EXTINF:-1 tvg-id="ITV3.uk" tvg-name="ITV3 HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44643_dark_360w_270h.png" group-title="UK TV",ITV3 HD
+http://localhost/18
+#EXTINF:-1 tvg-id="ITV4.uk" tvg-name="ITV4 HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48020_dark_360w_270h.png" group-title="UK TV",ITV4 HD
+http://localhost/19
+#EXTINF:-1 tvg-id="Channel4.uk" tvg-name="Channel 4 HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50716_dark_360w_270h.png" group-title="UK TV",Channel 4 HD
+http://localhost/20
+#EXTINF:-1 tvg-id="Channel5(src01).uk" tvg-name="Channel 5 HD" tvg-logo="https://tvsports-hub.vercel.app/Channel5Logo.png" group-title="UK TV",Channel 5 HD
+http://localhost/21
