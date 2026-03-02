@@ -3,7 +3,7 @@ import os
 
 # Your Dropbox Direct Link
 URL = "https://www.dropbox.com/scl/fi/08m4uosb7gsp8meebhrcs/m3u4u-193909-700434-EPG.xml?rlkey=dc6wms3jt7lr57fkz7a7xkz1f&st=mutowiyn&dl=1"
-FILENAME = "epg.xml"
+FILENAME = "dropbox_epg.xml"
 
 def sync():
     print(f"Downloading {FILENAME} from Dropbox...")
