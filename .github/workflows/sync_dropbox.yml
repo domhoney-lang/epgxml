@@ -23,7 +23,7 @@ jobs:
         run: pip install requests
 
       - name: Run Sync Script
-        run: python sync_epg.py
+        run: python sync_dropbox_epg.py
 
       - name: Commit and Push
         run: |
