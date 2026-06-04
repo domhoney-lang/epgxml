@@ -18,7 +18,7 @@ TARGET_IDS = {
     'TNT.Sports.1.HD.uk', 'TNT.Sports.2.HD.uk', 'TNT.Sports.3.HD.uk', 'TNT.Sports.4.HD.uk',
     
     # Main Channels - Exact Matches
-    'BBC.One.Lon.HD.uk', 'BBC.Two.HD.uk', 'ITV1.HD.uk',
+    'BBC.One.Lon.HD.uk', 'BBC.Two.HD.uk', 'BBC.Three.HD.uk', 'BBC.Four.HD.uk', 'ITV1.HD.uk',
     'Channel.4.HD.uk', 'Channel.5.HD.uk',
     
     # ITV Variations - common source IDs for UK1
