@@ -119,11 +119,23 @@
     <url>http://www.sky.com</url>
     <display-name lang="en">SkySpCricket HD</display-name>
   </channel>
+  <channel id="BBC.Three.HD.uk">
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2080.png" />
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2080.png" />
+    <url>http://www.sky.com</url>
+    <display-name lang="en">BBC Three HD</display-name>
+  </channel>
   <channel id="SkySp.Tennis.HD.uk">
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1284.png" />
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1284.png" />
     <url>http://www.sky.com</url>
     <display-name lang="en">SkySp Tennis HD</display-name>
+  </channel>
+  <channel id="BBC.Four.HD.uk">
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2086.png" />
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2086.png" />
+    <url>http://www.sky.com</url>
+    <display-name lang="en">BBC Four HD</display-name>
   </channel>
   <channel id="Channel.5.HD.uk">
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4058.png" />
@@ -8562,6 +8574,365 @@
     <icon src="https://images.metadata.sky.com/pd-image/64a103a3-4fb0-4139-8bdd-ae1cab3ab51f/16-9" />
     <episode-num system="xmltv_ns">.2.</episode-num>
   </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603002000 +0000" stop="20260603005000 +0000">
+    <title lang="en">Only Connect</title>
+    <desc lang="en">Quiz show with Victoria Coren in which connections must be made between seemingly unconnected things. Three history lovers square up to a trio of Welshmen.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Game Show</category>
+    <icon src="https://images.metadata.sky.com/pd-image/078bd143-00c0-4a85-99c9-60097bf5a6bb/16-9" />
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603005000 +0000" stop="20260603015000 +0000">
+    <title lang="en">Leonora Carrington: The Lost Surrealist</title>
+    <desc lang="en">Film about artist Leonora Carrington who worked alongside Max Ernst, Andre Breton and Pablo Picasso in Paris at the height of surrealism, yet lived out her days in Mexico City.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/11e74f59-abec-4c34-8f23-4fdf0df144bd/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603015000 +0000" stop="20260603043000 +0000">
+    <title lang="en">This is BBC Four</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603043000 +0000" stop="20260603103000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603103000 +0000" stop="20260603163000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603163000 +0000" stop="20260603175800 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603175800 +0000" stop="20260603180000 +0000">
+    <title lang="en">This is BBC Four</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603180000 +0000" stop="20260603183000 +0000">
+    <title lang="en">University Challenge</title>
+    <desc lang="en">The second round continues, with two more teams of students eager to snatch a second win and the place in the quarter-finals that goes with it. Jeremy Paxman asks the questions.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Game Show</category>
+    <icon src="https://images.metadata.sky.com/pd-image/cf210354-98fb-42d8-b61e-45a0a4831dad/16-9" />
+    <episode-num system="xmltv_ns">21.18.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603183000 +0000" stop="20260603190000 +0000">
+    <title lang="en">Only Connect</title>
+    <desc lang="en">Quiz show in which connections must be made between seemingly unconnected things. Three chess players take on a team who write puzzles for charity.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Game Show</category>
+    <icon src="https://images.metadata.sky.com/pd-image/affa379a-358f-4708-adec-5470cf65dd49/16-9" />
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603190000 +0000" stop="20260603200000 +0000">
+    <title lang="en">Little Ships: The Miracle of Dunkirk</title>
+    <desc lang="en">Dan Snow tells the story of the 'little ships' that took part in the Dunkirk evacuation.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/9c15f89d-33e0-32f0-8e17-e432ba6a1a35/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603200000 +0000" stop="20260603210000 +0000">
+    <title lang="en">The Hadron Collider: In Search of the Peace Particle</title>
+    <desc lang="en">Film exploring the human stories behind mankind's biggest experiment in particle physics.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/566d89f1-54f0-4bc6-91ab-7bd781a9356c/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603210000 +0000" stop="20260603215000 +0000">
+    <title lang="en">Too Near the Sun</title>
+    <desc lang="en">Documentary exploring the race to build the first thermonuclear weapon. From 1966. Contains some scenes which some viewers may find upsetting.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/3c7d4da2-5291-4c1c-b95b-509709f445fe/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603215000 +0000" stop="20260603224500 +0000">
+    <title lang="en">A Very Peculiar Practice</title>
+    <desc lang="en">The whole university seems to have succumbed to a sexually transmitted disease. Jock decides they must trace the source of the outbreak. Contains adult humour.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/162b2764-0146-316a-9392-6e40651aa630/16-9" />
+    <episode-num system="xmltv_ns">.4.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603224500 +0000" stop="20260603233500 +0000">
+    <title lang="en">A Very Peculiar Practice</title>
+    <desc lang="en">The vice-chancellor is determined to weed out costly and unproductive staff, and Jock is on his list. Meanwhile, Stephen starts having strange dreams about nuns.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/28778eb6-ee6c-3f68-baa2-1552a698c09f/16-9" />
+    <episode-num system="xmltv_ns">.5.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260603233500 +0000" stop="20260604003000 +0000">
+    <title lang="en">A Very Peculiar Practice</title>
+    <desc lang="en">The axe is about to fall at Lowlands University as 25 per cent cutbacks are announced, turning Stephen's life upside down.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/3267b329-8fe7-3dd7-9e69-0549a90f433a/16-9" />
+    <episode-num system="xmltv_ns">.6.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604003000 +0000" stop="20260604013000 +0000">
+    <title lang="en">The Hadron Collider: In Search of the Peace Particle</title>
+    <desc lang="en">Film exploring the human stories behind mankind's biggest experiment in particle physics.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/566d89f1-54f0-4bc6-91ab-7bd781a9356c/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604013000 +0000" stop="20260604023000 +0000">
+    <title lang="en">Little Ships: The Miracle of Dunkirk</title>
+    <desc lang="en">Dan Snow tells the story of the 'little ships' that took part in the Dunkirk evacuation.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/9c15f89d-33e0-32f0-8e17-e432ba6a1a35/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604023000 +0000" stop="20260604043000 +0000">
+    <title lang="en">This is BBC Four</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604043000 +0000" stop="20260604103000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604103000 +0000" stop="20260604163000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604163000 +0000" stop="20260604175800 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604175800 +0000" stop="20260604180000 +0000">
+    <title lang="en">This is BBC Four</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604180000 +0000" stop="20260604183000 +0000">
+    <title lang="en">University Challenge</title>
+    <desc lang="en">The second round continues, with two more teams of students locking horns for a place in the quarter-finals. Jeremy Paxman asks the questions.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Game Show</category>
+    <icon src="https://images.metadata.sky.com/pd-image/f8593101-18d2-4531-ae05-0939e31e9d38/16-9" />
+    <episode-num system="xmltv_ns">21.19.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604183000 +0000" stop="20260604190000 +0000">
+    <title lang="en">Only Connect</title>
+    <desc lang="en">Quiz show in which connections must be made between seemingly random elements. How does Lord Kelvin of Largs connect with Ebola.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Game Show</category>
+    <icon src="https://images.metadata.sky.com/pd-image/ebad9b74-e3c5-423e-bc88-5b6ba3402ccf/16-9" />
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604190000 +0000" stop="20260604205500 +0000">
+    <title lang="en">The Searchers</title>
+    <desc lang="en">Believing the Comanche have abducted his niece, embittered Ethan sets out to save her.</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://images.metadata.sky.com/pd-image/3513005a-5ddf-4703-b94e-49c1bf88267a/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604205500 +0000" stop="20260604215500 +0000">
+    <title lang="en">John Wayne: The Unquiet American - Reputations</title>
+    <desc lang="en">A profile of actor John Wayne, exploring his enduring appeal and examining the contradictions behind his brand of heroism.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/8e7e51fd-4738-4d55-ba23-001e9049dbe4/16-9" />
+    <episode-num system="xmltv_ns">.0.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260604215500 +0000" stop="20260605000000 +0000">
+    <title lang="en">The Blues Brothers</title>
+    <desc lang="en">Jake Blues and his brother Elwood have just days to save the home where they were raised. Contains very strong language.</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://images.metadata.sky.com/pd-image/f845c544-7813-4c67-b4e0-9510e4bf1507/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605000000 +0000" stop="20260605005000 +0000">
+    <title lang="en">Too Near the Sun</title>
+    <desc lang="en">Documentary exploring the race to build the first thermonuclear weapon. From 1966. Contains some scenes which some viewers may find upsetting.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/3c7d4da2-5291-4c1c-b95b-509709f445fe/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605005000 +0000" stop="20260605012000 +0000">
+    <title lang="en">Only Connect</title>
+    <desc lang="en">Quiz show in which connections must be made between seemingly random elements. How does Lord Kelvin of Largs connect with Ebola.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Game Show</category>
+    <icon src="https://images.metadata.sky.com/pd-image/ebad9b74-e3c5-423e-bc88-5b6ba3402ccf/16-9" />
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605012000 +0000" stop="20260605022000 +0000">
+    <title lang="en">Art of America</title>
+    <desc lang="en">Andrew Graham-Dixon begins his history of American art with portraits of Puritan settlers and the dark truth behind Benjamin West's most famous painting.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Arts</category>
+    <icon src="https://images.metadata.sky.com/pd-image/f01e24d9-8882-48cb-bcfb-83aff8793520/16-9" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605022000 +0000" stop="20260605043000 +0000">
+    <title lang="en">This is BBC Four</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605043000 +0000" stop="20260605103000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605103000 +0000" stop="20260605163000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605163000 +0000" stop="20260605175800 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605175800 +0000" stop="20260605180000 +0000">
+    <title lang="en">This is BBC Four</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605180000 +0000" stop="20260605182500 +0000">
+    <title lang="en">TOTP: 1999</title>
+    <desc lang="en">Gail Porter presents the pop chart programme, first broadcast on 3 December 1999 and featuring Melanie C, Boyzone, Lolly, Phats &amp; Small, Martine McCutcheon and Cliff Richard.</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Rock&amp;Pop</category>
+    <icon src="https://images.metadata.sky.com/pd-image/251c3809-cace-4289-b5ff-0babd5f4fb2c/16-9" />
+    <episode-num system="xmltv_ns">.23.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605182500 +0000" stop="20260605185000 +0000">
+    <title lang="en">TOTP: 1999</title>
+    <desc lang="en">Jamie Theakston presents the pop chart programme, first broadcast on 10 December 1999 and featuring Whitney Houston, Mario Piu, Jamiroquai, Celine Dion, Atomic Kitten and Cliff Richard.</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Rock&amp;Pop</category>
+    <icon src="https://images.metadata.sky.com/pd-image/a761a661-c271-49f6-8c1c-ba901697e32f/16-9" />
+    <episode-num system="xmltv_ns">.24.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605185000 +0000" stop="20260605193000 +0000">
+    <title lang="en">TOTP: 1979</title>
+    <desc lang="en">Paul Burnett presents the pop chart programme, first broadcast on 31 May 1979 and featuring Quantum Jump, Chas &amp; Dave, Sparks, Peaches &amp; Herb, Voyager, Blondie and Hot Chocolate.</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Rock&amp;Pop</category>
+    <icon src="https://images.metadata.sky.com/pd-image/07f6d2a9-7105-4ff8-ab8b-5eaee35f640e/16-9" />
+    <episode-num system="xmltv_ns">.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605193000 +0000" stop="20260605200000 +0000">
+    <title lang="en">TOTP: 1989</title>
+    <desc lang="en">Anthea Turner and Gary Davies present the pop chart programme, first broadcast on 1 June 1989 and featuring Sinitta, Fuzzbox and Neneh Cherry.</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Rock&amp;Pop</category>
+    <icon src="https://images.metadata.sky.com/pd-image/8a983370-22e6-4ab8-9a1a-65019e6198c0/16-9" />
+    <episode-num system="xmltv_ns">.12.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605200000 +0000" stop="20260605204000 +0000">
+    <title lang="en">Aretha Franklin at the BBC</title>
+    <desc lang="en">A collection of Aretha Franklin's performances on BBC programmes from across the decades, including her stunning 2015 rendition of You Make Me Feel (Like a Natural Woman).</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Soul/R&amp;B</category>
+    <icon src="https://images.metadata.sky.com/pd-image/1dd656c8-747c-3a51-900e-ee578a9907b5/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605204000 +0000" stop="20260605212000 +0000">
+    <title lang="en">Aretha Franklin in Amsterdam 1968</title>
+    <desc lang="en">Recorded live at the Royal Concertgebouw in Amsterdam in 1968, Aretha Franklin sings a selection of her hits, including Respect, Chain of Fools and Satisfaction.</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Soul/R&amp;B</category>
+    <icon src="https://images.metadata.sky.com/pd-image/c64bd07a-c190-34d2-a56a-b607f2420af4/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605212000 +0000" stop="20260605225000 +0000">
+    <title lang="en">Dolly Parton: Here I Am</title>
+    <desc lang="en">A landmark film charting the extraordinary life and music of the queen of country, Dolly Parton, with exclusive interviews and archive footage.</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://images.metadata.sky.com/pd-image/dc503133-8d59-4857-a8e4-b13148f123c3/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605225000 +0000" stop="20260605235000 +0000">
+    <title lang="en">... Sings the Great American Songbook</title>
+    <desc lang="en">Compilation of BBC performances of the Great American Songbook tracks, featuring Shirley Bassey, Jamie Cullum, Bryan Ferry, Captain Sensible, Kirsty MacColl and Florence Welch.</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Easy Listening</category>
+    <icon src="https://images.metadata.sky.com/pd-image/c4f114a2-3333-4ec3-a1dc-dcebf63e6bd6/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260605235000 +0000" stop="20260606001500 +0000">
+    <title lang="en">TOTP: 1999</title>
+    <desc lang="en">Gail Porter presents the pop chart programme, first broadcast on 3 December 1999 and featuring Melanie C, Boyzone, Lolly, Phats &amp; Small, Martine McCutcheon and Cliff Richard.</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Rock&amp;Pop</category>
+    <icon src="https://images.metadata.sky.com/pd-image/251c3809-cace-4289-b5ff-0babd5f4fb2c/16-9" />
+    <episode-num system="xmltv_ns">.23.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606001500 +0000" stop="20260606004000 +0000">
+    <title lang="en">TOTP: 1999</title>
+    <desc lang="en">Jamie Theakston presents the pop chart programme, first broadcast on 10 December 1999 and featuring Whitney Houston, Mario Piu, Jamiroquai, Celine Dion, Atomic Kitten and Cliff Richard.</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Rock&amp;Pop</category>
+    <icon src="https://images.metadata.sky.com/pd-image/a761a661-c271-49f6-8c1c-ba901697e32f/16-9" />
+    <episode-num system="xmltv_ns">.24.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606004000 +0000" stop="20260606012000 +0000">
+    <title lang="en">TOTP: 1979</title>
+    <desc lang="en">Paul Burnett presents the pop chart programme, first broadcast on 31 May 1979 and featuring Quantum Jump, Chas &amp; Dave, Sparks, Peaches &amp; Herb, Voyager, Blondie and Hot Chocolate.</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Rock&amp;Pop</category>
+    <icon src="https://images.metadata.sky.com/pd-image/07f6d2a9-7105-4ff8-ab8b-5eaee35f640e/16-9" />
+    <episode-num system="xmltv_ns">.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606012000 +0000" stop="20260606015000 +0000">
+    <title lang="en">TOTP: 1989</title>
+    <desc lang="en">Anthea Turner and Gary Davies present the pop chart programme, first broadcast on 1 June 1989 and featuring Sinitta, Fuzzbox and Neneh Cherry.</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Rock&amp;Pop</category>
+    <icon src="https://images.metadata.sky.com/pd-image/8a983370-22e6-4ab8-9a1a-65019e6198c0/16-9" />
+    <episode-num system="xmltv_ns">.12.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606015000 +0000" stop="20260606023500 +0000">
+    <title lang="en">Aretha Franklin at the BBC</title>
+    <desc lang="en">A collection of Aretha Franklin's performances on BBC programmes from across the decades, including her stunning 2015 rendition of You Make Me Feel (Like a Natural Woman).</desc>
+    <category lang="en">Music &amp; Radio</category>
+    <category lang="en">Soul/R&amp;B</category>
+    <icon src="https://images.metadata.sky.com/pd-image/1dd656c8-747c-3a51-900e-ee578a9907b5/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606023500 +0000" stop="20260606043000 +0000">
+    <title lang="en">This is BBC Four</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606043000 +0000" stop="20260606103000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606103000 +0000" stop="20260606163000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606163000 +0000" stop="20260606175800 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606175800 +0000" stop="20260606180000 +0000">
+    <title lang="en">This is BBC Four</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606180000 +0000" stop="20260606184500 +0000">
+    <title lang="en">Expedition Rhino: The Search for the Last Northern White</title>
+    <desc lang="en">An expedition team is in war-torn South Sudan to find living proof of an extinct rhino. Contains some scenes which some viewers may find upsetting.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/fb3a58b1-1dab-45d6-a8a7-3e1ba5c7e40e/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606184500 +0000" stop="20260606193000 +0000">
+    <title lang="en">The Good Old Days</title>
+    <desc lang="en">Leonard Sachs presents an edition of the music hall programme first broadcast on 4 March 1976. With Ken Dodd, Sheila Steafal, Valerie Masterson and Johnny Hart.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Game Show</category>
+    <icon src="https://images.metadata.sky.com/pd-image/7af7b71f-f463-4504-ac68-c85b567fa29d/16-9" />
+    <episode-num system="xmltv_ns">.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606193000 +0000" stop="20260606202000 +0000">
+    <title lang="en">Hetty Wainthropp Investigates</title>
+    <desc lang="en">Hetty's plans for a nostalgic railway trip are abruptly changed when a clockmaker needs her sensitive expertise.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Detective</category>
+    <icon src="https://images.metadata.sky.com/pd-image/026fbeb2-963a-4fe1-8fd4-b503ae2a9a6a/16-9" />
+    <episode-num system="xmltv_ns">2.8.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606202000 +0000" stop="20260606221000 +0000">
+    <title lang="en">Vermiglio</title>
+    <desc lang="en">The arrival of a Sicilian deserter has a profound effect in a remote Alpine village. Deals with adult themes.</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://images.metadata.sky.com/pd-image/59b6e8e6-2e47-4f07-bf5a-a6d0443a8200/16-9" />
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606221000 +0000" stop="20260606224500 +0000">
+    <title lang="en">Butterflies</title>
+    <desc lang="en">Ria has enough to cope with: there is her husband Ben, who has his own hang-ups and her sons Adam and Russell, who are the cause of most of them. Then suddenly there's Leonard.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/d0e6f755-f6c4-490b-9e5e-9172c2d4020e/16-9" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme channel="BBC.Four.HD.uk" start="20260606224500 +0000" stop="20260606231500 +0000">
+    <title lang="en">A Tribute to Carla Lane - Artsnight</title>
+    <desc lang="en">This special edition of Artsnight delves into the BBC's archive and brings together rarely seen interviews in which writer Carla Lane discusses her life and work.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Arts</category>
+    <icon src="https://images.metadata.sky.com/pd-image/cbbe48a9-1f72-4feb-a572-d8903461630d/16-9" />
+  </programme>
   <programme channel="BBC.One.Lon.HD.uk" start="20260603004000 +0000" stop="20260603004500 +0000">
     <title lang="en">Weather for the Week Ahead</title>
     <desc lang="en">Detailed weather forecast.</desc>
@@ -9328,6 +9699,422 @@
     <desc lang="en">After making a disturbing discovery, replicant hunter K goes after the one person he suspects can help. Contains some strong language and some violent scenes.</desc>
     <category lang="en">Movie</category>
     <icon src="https://images.metadata.sky.com/pd-image/dbc8dfd4-1a95-4fc2-b64a-1128e4918a9a/16-9" />
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603000000 +0000" stop="20260603010000 +0000">
+    <title lang="en">Top Gear: Botswana Special</title>
+    <desc lang="en">Motoring magazine. Jeremy, Richard and James are challenged to each drive a second-hand car across the wilds of Botswana, facing obstacles such as salt pans, rivers and animals.</desc>
+    <category lang="en">Entertainment</category>
+    <icon src="https://images.metadata.sky.com/pd-image/b04c4e18-f51c-4866-b7ba-8924ad2bf720/16-9" />
+    <episode-num system="xmltv_ns">9.3.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603010000 +0000" stop="20260603020000 +0000">
+    <title lang="en">Zara McDermott: Uncovering Rape Culture</title>
+    <desc lang="en">Zara McDermott investigates 'rape culture' raging in UK schools, revealing her own story. Contains very strong language and upsetting scenes.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/c1db63ed-d965-47a9-bf49-e4679fd2bc5b/16-9" />
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603020000 +0000" stop="20260603030000 +0000">
+    <title lang="en">Louis Theroux: Life on the Edge</title>
+    <desc lang="en">3/4. Louis Theroux reflects on the documentaries he has made about the American criminal justice system. Contains very strong language and upsetting scenes.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/75211317-31fb-47c4-b685-69544519ba11/16-9" />
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603030000 +0000" stop="20260603043000 +0000">
+    <title lang="en">This is BBC Three</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603043000 +0000" stop="20260603103000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603103000 +0000" stop="20260603163000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603163000 +0000" stop="20260603175800 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603175800 +0000" stop="20260603180000 +0000">
+    <title lang="en">This is BBC Three</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603180000 +0000" stop="20260603180500 +0000">
+    <title lang="en">The Catch Up</title>
+    <desc lang="en">A round-up of the day's news with Ben Henley-Washford.</desc>
+    <category lang="en">News &amp; Documentary</category>
+    <category lang="en">News</category>
+    <icon src="https://images.metadata.sky.com/pd-image/719dd248-5ca0-421b-9465-abf2258e378d/16-9" />
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603180500 +0000" stop="20260603190000 +0000">
+    <title lang="en">Asia</title>
+    <desc lang="en">A look at the vast, hostile, arid lands in the heart of Asia - deserts and dry grasslands.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/b7a15ace-f0f2-33f2-b086-6b882a984e3f/16-9" />
+    <episode-num system="xmltv_ns">0.5.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603190000 +0000" stop="20260603200000 +0000">
+    <title lang="en">Interior Design Masters with Alan Carr</title>
+    <desc lang="en">The semi-finalists head to Brighton and Hove Albion's stadium to do up hospitality boxes.</desc>
+    <category lang="en">Entertainment</category>
+    <icon src="https://images.metadata.sky.com/pd-image/1c9e69fb-4efe-4702-8f35-6ce51356d572/16-9" />
+    <episode-num system="xmltv_ns">6.6.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603200000 +0000" stop="20260603204500 +0000">
+    <title lang="en">A Good Girl's Guide to Murder</title>
+    <desc lang="en">Pip's day in court proves harder than she imagined, while a promising lead about Jamie comes from an unlikely source. Contains some strong language and some upsetting scenes.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Detective</category>
+    <icon src="https://images.metadata.sky.com/pd-image/424230f9-3454-48d0-b4ca-0105ab0cf54f/16-9" />
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603204500 +0000" stop="20260603213000 +0000">
+    <title lang="en">A Good Girl's Guide to Murder</title>
+    <desc lang="en">Fresh evidence forces Pip back to her first line of inquiry with renewed urgency, while Max Hastings's testimony causes shock waves through the court. Contains strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Detective</category>
+    <icon src="https://images.metadata.sky.com/pd-image/c0d0d457-807a-494a-91fa-6c6115c32178/16-9" />
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603213000 +0000" stop="20260603230500 +0000">
+    <title lang="en">Escape Room</title>
+    <desc lang="en">Six strangers find themselves in a maze of deadly mystery rooms and must use their wits to survive. Contains some strong language, some violence and some upsetting scenes.</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://images.metadata.sky.com/pd-image/b53979f2-4597-4385-bae6-304806fe8057/16-9" />
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260603230500 +0000" stop="20260604000500 +0000">
+    <title lang="en">Top Gear: Africa Special Part 1</title>
+    <desc lang="en">In the first of a two-part Top Gear special, Jeremy Clarkson, Richard Hammond and James May are in Africa with a simple mission - to find the definitive source of the Nile.</desc>
+    <category lang="en">Entertainment</category>
+    <icon src="https://images.metadata.sky.com/pd-image/a7ed5a7b-657e-4d77-939b-c7bdb8fd073c/16-9" />
+    <episode-num system="xmltv_ns">18.5.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604000500 +0000" stop="20260604010000 +0000">
+    <title lang="en">Top Gear: Africa Special Part 2</title>
+    <desc lang="en">Having survived insane traffic, lethal mudslides and dubious map reading, the trio reach the climax of their quest to find the definitive source of the Nile.</desc>
+    <category lang="en">Entertainment</category>
+    <icon src="https://images.metadata.sky.com/pd-image/0374f6e4-b2a9-4e2d-bb10-4b85dc7ff61f/16-9" />
+    <episode-num system="xmltv_ns">18.6.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604010000 +0000" stop="20260604020000 +0000">
+    <title lang="en">Glow Up: Britain's Next Make-Up Star</title>
+    <desc lang="en">Influencer Patricia Bright judges the Creative Brief. Designer Harri, famed for Sam Smith's latex outfit, and Isamaya Ffrench book the MUAs to create looks for Harri's show.</desc>
+    <category lang="en">Entertainment</category>
+    <icon src="https://images.metadata.sky.com/pd-image/ab543a9e-762c-4e02-a211-2b922d5db964/16-9" />
+    <episode-num system="xmltv_ns">6.0.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604020000 +0000" stop="20260604030000 +0000">
+    <title lang="en">Glow Up: Britain's Next Make-Up Star</title>
+    <desc lang="en">Courtney Act flies in to surprise the MUAs after they create AR lenses for Snapchat.</desc>
+    <category lang="en">Entertainment</category>
+    <icon src="https://images.metadata.sky.com/pd-image/31091e32-6ace-4e66-b150-3a79750e9091/16-9" />
+    <episode-num system="xmltv_ns">6.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604030000 +0000" stop="20260604043000 +0000">
+    <title lang="en">This is BBC Three</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604043000 +0000" stop="20260604103000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604103000 +0000" stop="20260604163000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604163000 +0000" stop="20260604175800 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604175800 +0000" stop="20260604180000 +0000">
+    <title lang="en">This is BBC Three</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604180000 +0000" stop="20260604180500 +0000">
+    <title lang="en">The Catch Up</title>
+    <desc lang="en">A round-up of the day's news.</desc>
+    <category lang="en">News &amp; Documentary</category>
+    <category lang="en">News</category>
+    <icon src="https://images.metadata.sky.com/pd-image/d3dd6350-dbf1-4e91-9bfe-b0c76907e2b1/16-9" />
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604180500 +0000" stop="20260604183000 +0000">
+    <title lang="en">Deadly 60</title>
+    <sub-title lang="en">Australia</sub-title>
+    <desc lang="en">Naturalist Steve Backshall's global search for deadly creatures takes him to meet the saltwater crocodile and search for huge-fanged ghost bats.</desc>
+    <category lang="en">Children</category>
+    <icon src="https://images.metadata.sky.com/pd-image/9c9a7195-fc1d-4ff2-913d-7160cbb61446/16-9" />
+    <episode-num system="xmltv_ns">0.6.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604183000 +0000" stop="20260604190000 +0000">
+    <title lang="en">Deadly 60</title>
+    <sub-title lang="en">Snake Island</sub-title>
+    <desc lang="en">Steve Backshall heads to a place very few people ever go: Snake Island in Brazil, where the concentration of snakes is higher than anywhere else on earth.</desc>
+    <category lang="en">Children</category>
+    <icon src="https://images.metadata.sky.com/pd-image/d0e7d651-5934-428d-926b-2bf448e2a39f/16-9" />
+    <episode-num system="xmltv_ns">5.9.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604190000 +0000" stop="20260604210000 +0000">
+    <title lang="en">Athletics: Diamond League Rome</title>
+    <desc lang="en">World-class athletics from the Eternal City as a plethora of household names in track and field compete at the Stadio Olimpico in the fourth Diamond League meet of the season.</desc>
+    <category lang="en">Sports</category>
+    <category lang="en">Athletics</category>
+    <icon src="https://images.metadata.sky.com/pd-image/56b76631-8ce0-4dff-a9a9-cf602278eb60/16-9" />
+    <episode-num system="xmltv_ns">.3.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604210000 +0000" stop="20260604223500 +0000">
+    <title lang="en">Kidnapped by My Mum</title>
+    <desc lang="en">At 11 years old, Alex vanished on holiday with his mother and grandfather for six years. Now, he's retracing his steps across Europe to tell the full story for the first time.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/4f84c2c0-f7ab-4317-846c-2bdcc513168e/16-9" />
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604223500 +0000" stop="20260604230000 +0000">
+    <title lang="en">Ladhood</title>
+    <desc lang="en">Having started a fight with a stranger, for the crime of talking to his girlfriend, Liam thinks back to his youth and where this toxic behaviour stems from. Contains strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/b211895b-520c-4f5d-b113-fecb9f6e653c/16-9" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604230000 +0000" stop="20260604232500 +0000">
+    <title lang="en">Ladhood</title>
+    <desc lang="en">Liam attempts a sober Friday night, leading him to reflect on his relationship with booze. Contains strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/ca025229-8e6b-47d9-8a93-5ce460a673e3/16-9" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604232500 +0000" stop="20260604235000 +0000">
+    <title lang="en">Ladhood</title>
+    <desc lang="en">After a bad day at work, Liam is forced to confront his mental health problems. Contains strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/6307a3e7-bc1c-4d8a-9165-ae72c284584b/16-9" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260604235000 +0000" stop="20260605002000 +0000">
+    <title lang="en">Dubai Hustle</title>
+    <desc lang="en">The Brokers are back! Adam and Jake try to impress an influential client, new boy Eddie attempts to become an investor's exclusive agent, and Chris is under scrutiny.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/aad21b50-82cc-35d2-800f-a1d4e63494f4/16-9" />
+    <episode-num system="xmltv_ns">2.0.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605002000 +0000" stop="20260605005000 +0000">
+    <title lang="en">Dubai Hustle</title>
+    <desc lang="en">Natasha stakes a claim to Eddie's big fish client, Jessica poses up a storm in a lavish house, and Adam gets a surprising update from a client.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/67250cd7-90bb-3684-a4c3-95dc39981754/16-9" />
+    <episode-num system="xmltv_ns">2.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605005000 +0000" stop="20260605012000 +0000">
+    <title lang="en">BBC New Comedy Awards 2025</title>
+    <desc lang="en">The BBC's biggest comedy talent search heads to Alexandra Palace in London. Contains strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/16c9eab7-8a2c-419b-ba6b-5aba3d7a5400/16-9" />
+    <episode-num system="xmltv_ns">.2.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605012000 +0000" stop="20260605020500 +0000">
+    <title lang="en">A Good Girl's Guide to Murder</title>
+    <desc lang="en">Pip's day in court proves harder than she imagined, while a promising lead about Jamie comes from an unlikely source. Contains some strong language and some upsetting scenes.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Detective</category>
+    <icon src="https://images.metadata.sky.com/pd-image/424230f9-3454-48d0-b4ca-0105ab0cf54f/16-9" />
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605020500 +0000" stop="20260605025000 +0000">
+    <title lang="en">A Good Girl's Guide to Murder</title>
+    <desc lang="en">Fresh evidence forces Pip back to her first line of inquiry with renewed urgency, while Max Hastings's testimony causes shock waves through the court. Contains strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Detective</category>
+    <icon src="https://images.metadata.sky.com/pd-image/c0d0d457-807a-494a-91fa-6c6115c32178/16-9" />
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605025000 +0000" stop="20260605043000 +0000">
+    <title lang="en">This is BBC Three</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605043000 +0000" stop="20260605103000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605103000 +0000" stop="20260605163000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605163000 +0000" stop="20260605175800 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605175800 +0000" stop="20260605180000 +0000">
+    <title lang="en">This is BBC Three</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605180000 +0000" stop="20260605180500 +0000">
+    <title lang="en">The Catch Up</title>
+    <desc lang="en">A round-up of the day's news.</desc>
+    <category lang="en">News &amp; Documentary</category>
+    <category lang="en">News</category>
+    <icon src="https://images.metadata.sky.com/pd-image/1aeebeb2-5e10-4510-b3d8-a76bd7822bb5/16-9" />
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605180500 +0000" stop="20260605183500 +0000">
+    <title lang="en">Deadly 60</title>
+    <sub-title lang="en">Bears and Vipers in Slovenia</sub-title>
+    <desc lang="en">Steve Backshall goes searching for venomous snakes, bears and a cave dragon.</desc>
+    <category lang="en">Children</category>
+    <icon src="https://images.metadata.sky.com/pd-image/676e0bb1-4833-4188-9291-06bb573d69cd/16-9" />
+    <episode-num system="xmltv_ns">6.0.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605183500 +0000" stop="20260605200000 +0000">
+    <title lang="en">Shrek 2</title>
+    <desc lang="en">Animated sequel following the grumpy ogre (voiced by Mike Myers) and his bride as they head off to meet her parents. The occasion is marred by the wicked Fairy Godmother.</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://images.metadata.sky.com/pd-image/164f5faa-9a3d-4ec8-85e2-3651ff047989/16-9" />
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605200000 +0000" stop="20260605210000 +0000">
+    <title lang="en">Death in Paradise</title>
+    <desc lang="en">A mystery unravels in the jungle when a game show contestant is stabbed on a zip line. Meanwhile, the team butt heads with Mervin.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Detective</category>
+    <icon src="https://images.metadata.sky.com/pd-image/051b5c60-f174-4e54-9d78-203a0e6e771b/16-9" />
+    <episode-num system="xmltv_ns">13.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605210000 +0000" stop="20260605214500 +0000">
+    <title lang="en">A Good Girl's Guide to Murder</title>
+    <desc lang="en">Pip's day in court proves harder than she imagined, while a promising lead about Jamie comes from an unlikely source. Contains some strong language and some upsetting scenes.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Detective</category>
+    <icon src="https://images.metadata.sky.com/pd-image/424230f9-3454-48d0-b4ca-0105ab0cf54f/16-9" />
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605214500 +0000" stop="20260605223000 +0000">
+    <title lang="en">A Good Girl's Guide to Murder</title>
+    <desc lang="en">Fresh evidence forces Pip back to her first line of inquiry with renewed urgency, while Max Hastings's testimony causes shock waves through the court. Contains strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Detective</category>
+    <icon src="https://images.metadata.sky.com/pd-image/c0d0d457-807a-494a-91fa-6c6115c32178/16-9" />
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605223000 +0000" stop="20260605231500 +0000">
+    <title lang="en">Planet Sex with Cara Delevingne</title>
+    <desc lang="en">Cara Delevingne sets out to find why men are having more fulfilling sex than women. Contains some strong language and scenes of a sexual nature.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/f79df3ee-634c-3cca-81ff-0773283997b7/16-9" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260605231500 +0000" stop="20260606000000 +0000">
+    <title lang="en">Planet Sex with Cara Delevingne</title>
+    <desc lang="en">Cara grew up feeling ashamed of her sexuality. Now she wants to be out, loud and proud. Contains some strong language and some scenes of a sexual nature.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Factual</category>
+    <icon src="https://images.metadata.sky.com/pd-image/89a27971-cb24-4741-8b73-80f2f14e3527/16-9" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606000000 +0000" stop="20260606004500 +0000">
+    <title lang="en">Love in the Flesh</title>
+    <desc lang="en">Five couples who have only ever chatted online are about to have a first proper date. Contains some strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <icon src="https://images.metadata.sky.com/pd-image/c5f2686f-acbb-4013-acb6-177134a55c05/16-9" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606004500 +0000" stop="20260606013000 +0000">
+    <title lang="en">Love in the Flesh</title>
+    <desc lang="en">Five couples who met online go on their first romantic date to see if sparks will fly in the flesh. Contains some strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <icon src="https://images.metadata.sky.com/pd-image/a77c91a8-3c39-4529-abc2-49d3a7a8679f/16-9" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606013000 +0000" stop="20260606020000 +0000">
+    <title lang="en">BBC New Comedy Awards 2025</title>
+    <desc lang="en">The BBC's biggest comedy talent search heads to Newcastle. Contains some strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/c07c02f6-1ada-42ca-b9d7-9f54eaebf6c6/16-9" />
+    <episode-num system="xmltv_ns">.3.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606020000 +0000" stop="20260606022500 +0000">
+    <title lang="en">Things You Should Have Done</title>
+    <desc lang="en">Dependent pest and 'stay-at-home-daughter' Chi is suddenly forced to fend for herself. Contains some strong language and adult humour.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/fc7ce4a3-4645-36b7-aff0-991df5812780/16-9" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606022500 +0000" stop="20260606025500 +0000">
+    <title lang="en">Things You Should Have Done</title>
+    <desc lang="en">After two hours of work and a delivery to a retirement home, Chi falls in love with the concept of never working again. Contains some strong language and adult humour.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/bb7b86a8-660a-3741-b2c3-f67bdb2e7666/16-9" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606025500 +0000" stop="20260606043000 +0000">
+    <title lang="en">This is BBC Three</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606043000 +0000" stop="20260606103000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606103000 +0000" stop="20260606163000 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606163000 +0000" stop="20260606175800 +0000">
+    <title lang="en">..programmes start at 7.00pm</title>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606175800 +0000" stop="20260606180000 +0000">
+    <title lang="en">This is BBC Three</title>
+    <desc lang="en">Programmes start at 7.00pm.</desc>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606180000 +0000" stop="20260606184500 +0000">
+    <title lang="en">Doctor Who</title>
+    <desc lang="en">Sci-fi drama. With people to save and the Doctor trapped, Clara goes against an enemy that exists beyond human perception.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Sci-Fi</category>
+    <icon src="https://images.metadata.sky.com/pd-image/054406a3-afa8-4299-8380-def69bc219a8/16-9" />
+    <episode-num system="xmltv_ns">7.8.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606184500 +0000" stop="20260606193000 +0000">
+    <title lang="en">Doctor Who</title>
+    <desc lang="en">Sci-fi drama. The human race wakes up to face the most surprising invasion yet, and the Doctor discovers that the final days of humanity have arrived.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Sci-Fi</category>
+    <icon src="https://images.metadata.sky.com/pd-image/c659a6f0-34fd-461b-9f2d-39a2cb64a4b3/16-9" />
+    <episode-num system="xmltv_ns">7.9.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606193000 +0000" stop="20260606200000 +0000">
+    <title lang="en">Miranda</title>
+    <desc lang="en">Sitcom. Miranda and Penny are forced into therapy for an assessment. How will they cope in a half-hour session with an unnervingly silent therapist.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/6318f6c7-1f58-4c27-bae4-889230781330/16-9" />
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606200000 +0000" stop="20260606203000 +0000">
+    <title lang="en">Miranda</title>
+    <desc lang="en">Sitcom. Miranda and Stevie try to spend Christmas at the shop with Gary, Clive and Tilly, but a series of infuriating events lurk just around the corner.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/1261e67c-ec00-49c4-b4ad-63152a0b128c/16-9" />
+    <episode-num system="xmltv_ns">1.5.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606203000 +0000" stop="20260606210000 +0000">
+    <title lang="en">Mrs Brown's Boys New Year Special</title>
+    <desc lang="en">The year starts badly when Winnie's place is burgled and her mother's wedding ring taken. Contains some strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/23f3fec6-4971-4052-b2a5-da7aa1d1253d/16-9" />
+    <episode-num system="xmltv_ns">.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606210000 +0000" stop="20260606213000 +0000">
+    <title lang="en">Mrs Brown's Boys New Year Special</title>
+    <desc lang="en">The Browns get a visit from Uncle Mickey, and Winnie unleashes her inner daredevil. Contains some strong language.</desc>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://images.metadata.sky.com/pd-image/834c558f-ce93-4966-adef-a47d8cf4bd34/16-9" />
+    <episode-num system="xmltv_ns">.1.</episode-num>
+  </programme>
+  <programme channel="BBC.Three.HD.uk" start="20260606213000 +0000" stop="20260606232000 +0000">
+    <title lang="en">The Nice Guys</title>
+    <desc lang="en">Mismatched PIs investigate a missing girl and the mysterious death of a porn star. Contains very strong language, some sexual content and some violence.</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://images.metadata.sky.com/pd-image/bcc30e0f-31d2-407c-b368-74e0d6e0d757/16-9" />
   </programme>
   <programme channel="BBC.Two.HD.uk" start="20260603003500 +0000" stop="20260603013500 +0000">
     <title lang="en">Lucy Worsley Investigates: The American Revolution</title>
